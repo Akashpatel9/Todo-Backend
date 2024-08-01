@@ -22,6 +22,8 @@ Update Todo: Update an existing to-do item.
 Delete Todo: Remove a to-do item.
 Mark as Done: Mark a to-do item as completed.
 Search and Filter: Search and filter to-dos based on criteria.
+
+
 Setup and Running the Application
 Clone the Repository
 
@@ -64,8 +66,13 @@ Access the API
 You can access the API endpoints via:
 
 Fetch Todos: GET http://localhost:3001/todo/AllTodo
+
 Add Todo: POST http://localhost:3001/todo/AddTodo
+
 Update Todo: PUT http://localhost:3001/todo/updateTodo/:id
+
 Delete Todo: DELETE http://localhost:3001/todo/deleteTodo/:id
+
 Mark as Done: PATCH http://localhost:3001/todo/completedTodo/:id
+
 Search and Filter: GET http://localhost:3001/todo/filter?search=term&status=pending
